@@ -1,0 +1,49 @@
+.wrp {
+    box-sizing: border-box;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    color: red
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0, auto;
+}
+
+.item {
+    &-img {
+        height: 250px;
+        object-fit: cover;
+        width: 300px;
+    }
+
+    &-wrapper {
+        border: 1px solid grey;
+        background-color: rgb(235, 235, 235);
+    }
+
+    &-title {
+        color: rgb(62, 46, 46);
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+    }
+
+    &-audio {
+        height: 250px;
+        width: 300px;
+    }
+
+    &-video {
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
